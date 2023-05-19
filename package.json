@@ -1,0 +1,23 @@
+{
+  "name": "api-for-tests",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Chiffa001/api-for-tests.git",
+  "author": "Наконечный Антон Викторович",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3006 node index.js",
+    "start:dev": "cross-env PORT=3006 nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
